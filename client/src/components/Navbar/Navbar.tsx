@@ -1,16 +1,17 @@
 import React from "react";
 import { CgMenuGridR } from "react-icons/cg";
-import "./Navbar.module.css"; // Makes it to where I can style general html elements.
 import styles from "./Navbar.module.css";
 
 const Navbar = () => {
   return (
-    <ul>
+    <ul className={styles['nav']}>
       <li>About</li>
-      <li>
-        <CgMenuGridR></CgMenuGridR>
-      </li>
-      <li>Login</li>
+      <div style={{float: 'right'}}>
+        <li className={styles['right']}>
+          <CgMenuGridR></CgMenuGridR>
+        </li>
+        <li className={styles['right']}>Login</li>
+      </div>
     </ul>
   );
 };
