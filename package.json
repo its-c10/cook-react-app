@@ -2,9 +2,9 @@
   "name": "cooking-react-app",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node server/index.js"
+    "start": "node server/app.js"
   },
   "keywords": [],
   "author": "",

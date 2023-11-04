@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styles from './Jumbotron.module.css'
 import {AiFillRobot} from 'react-icons/ai'
 import { IconContext } from 'react-icons'
@@ -12,15 +12,12 @@ const Jumbotron = () => {
         </IconContext.Provider>
         <p>What can I help you with?</p>
       </div>
-      <div className={styles['options-section']}>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-      </div>
+      <form>
+        <input></input>
+        <span>
+          <button></button>
+        </span>
+      </form>
     </div>
   )
 }
