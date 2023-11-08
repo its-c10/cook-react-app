@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Josefin+Slab&display=swap');
 
-.primary-font {
-    font-family: 
+:root {
+    --primary-font: 'Josefin Sans', sans-serif;
+    --secondary-font: 'Josefin Slab', serif;
 }
