@@ -4,13 +4,15 @@ import styles from "./Navbar.module.css";
 
 const Navbar = () => {
   return (
-    <ul className={styles['nav']}>
-      <li>About</li>
-      <div style={{float: 'right'}}>
-        <li className={styles['right']}>
+    <ul className={styles["nav"]}>
+      <li>
+        <a href="">About</a>
+      </li>
+      <div style={{ float: "right" }}>
+        <li className={styles["right"]}>
           <CgMenuGridR></CgMenuGridR>
         </li>
-        <li className={styles['right']}>Login</li>
+        <li className={styles["right"]}>Login</li>
       </div>
     </ul>
   );
