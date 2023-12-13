@@ -3,4 +3,6 @@
 :root {
     --primary-font: 'Josefin Sans', sans-serif;
     --secondary-font: 'Josefin Slab', serif;
+    --button-transition-time: 0.5s;
+    --button-hover-opacity: 0.8;
 }

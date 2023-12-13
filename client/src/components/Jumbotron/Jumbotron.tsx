@@ -13,13 +13,10 @@ const Jumbotron = () => {
         <p>What can I help you with?</p>
       </div>
       <div className={styles["options-section"]}>
-        <button>Help me decide what to cook</button>
+        <button>Help me figure out what I can cook</button>
+        <button>Help me figure out what I'm in the mood for</button>
         <button>Help me find ingredients</button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
-        <button></button>
+        <button>Walk me through a recipe</button>
       </div>
     </div>
   );
