@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <ul className={styles["nav"]}>
       <li>
-        <a href="#">About</a>
+        <a href="google.com">About</a>
       </li>
       <div style={{ float: "right" }}>
         {/* <li className={styles['right']}>
