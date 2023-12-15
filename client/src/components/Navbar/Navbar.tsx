@@ -1,11 +1,12 @@
 import React from "react";
 import styles from "./Navbar.module.css";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <ul className={styles["nav"]}>
       <li>
-        <a href="google.com">About</a>
+        <Link to="about">About</Link>
       </li>
       <div style={{ float: "right" }}>
         {/* <li className={styles['right']}>
