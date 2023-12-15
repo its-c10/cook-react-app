@@ -1,11 +1,11 @@
 import styles from "./Home.module.css";
 import { CgMenuGridR } from "react-icons/cg";
-import Navbar from "../Navbar";
-import Jumbotron from "../Jumbotron";
-import Trending from "../Trending";
-import Footer from "../Footer";
+import Navbar from "../../components/Navbar";
+import Jumbotron from "../../components/Jumbotron";
+import Trending from "../../components/Trending";
+import Footer from "../../components/Footer";
 import { useState } from "react";
-import Menu from "../Menu";
+import Menu from "../../components/Menu";
 
 const Home = () => {
   const [menuOpened, setMenuOpened] = useState(false);
