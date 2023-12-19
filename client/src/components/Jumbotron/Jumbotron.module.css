@@ -1,5 +1,5 @@
 .jumbo {
-    background-color: #F76C6C;
+    background-color: var(--primary-color);
     padding-top: 30px;
     padding-bottom: 30px;
 }

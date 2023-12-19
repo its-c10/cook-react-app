@@ -1,6 +1,6 @@
 // https://www.freecodecamp.org/news/how-to-create-a-react-app-with-a-node-backend-the-complete-guide/
-
-const express = require("express");
+import './openai.js';
+import express from 'express';
 
 const PORT = process.env.PORT || 3001;
 

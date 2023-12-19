@@ -3,6 +3,7 @@ import App from "../App";
 import Home from "../pages/home";
 import About from "../pages/about";
 
+// Good video on React routing: https://www.youtube.com/watch?v=G7UzhrNX60o
 export const router = createBrowserRouter([
   {
     path: "/",
