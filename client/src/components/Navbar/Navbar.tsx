@@ -1,17 +1,18 @@
 import React from "react";
 import styles from "./Navbar.module.css";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <ul className={styles['nav']}>
+    <ul className={styles["nav"]}>
       <li>
-        <a href="#">About</a>
+        <Link to="about">About</Link>
       </li>
-      <div style={{float: 'right'}}>
+      <div style={{ float: "right" }}>
         {/* <li className={styles['right']}>
           <CgMenuGridR></CgMenuGridR>
         </li> */}
-        <li className={styles['right']}>
+        <li className={styles["right"]}>
           <a href="">Login</a>
         </li>
       </div>
