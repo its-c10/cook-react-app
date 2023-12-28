@@ -7,6 +7,10 @@ const PORT = process.env.PORT || 3001;
 
 const app: Application = express();
 
+app.get("/api", (req, res): void => {
+  res.json({message: "Everything should work now"});
+});
+
 app.listen(PORT, (): void => {
   console.log(`Server listening on ${PORT}`);
   chatGPT = new ChatGPTHandler();
